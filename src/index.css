@@ -1,0 +1,100 @@
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 ;
+  margin: 0 ;
+  background-image: linear-gradient(to bottom right, #ff9eaa 0% 65%, #e860ff 90% 100%);
+
+  padding: 50px ;
+
+}
+.app{
+
+/* Header CSS  */
+  background-color: #fff;
+  max-width: 800px;
+  min-height: 80vh;
+  margin: auto ;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 2rem;
+  box-shadow: 0px 1rem 1.5rem rgba(0,0,0,0.5);
+  margin-top: 20px ;
+
+}
+
+/* Header Photo  */
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px ;
+}
+
+.header .head-photo{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+
+.header .header-title img{
+  width: 50px;
+  height: 40px ;
+
+  
+}
+.header .header-title{
+  text-align: center ;
+  font-size: 3rem;
+
+}
+
+
+/* Body CSS  */
+.bd .row{
+ margin: auto ;
+ padding: 10px ;
+ margin: 2px ;
+}
+
+input{
+  /* margin: 2px ;
+ 
+  font-size:2rem ; 
+  border-radius: 10px ;
+  border: 2px solid gray; */
+
+}
+
+.write{
+  margin-top: 50px ;
+}
+/* Image CSS */
+
+.ok{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+
+.add{
+  padding:5px ;
+  margin-right: 5px ;
+  margin-left: 10px ;
+  width: 150px ;
+  font-size: 1.5rem;
+  
+}
+.total-task{
+  margin: 50px ;
+}
+.total-task span{
+  color:red ;
+}
